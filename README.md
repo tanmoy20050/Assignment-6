@@ -22,6 +22,9 @@ let b = 30;
 b = 40; 
 
 const c = 50;
+
+
+
 2. What is the difference between map(), forEach(), and filter()?
 forEach() → শুধু loop চালায়, return করে না
 map() → প্রতিটা element transform করে নতুন array return করে
@@ -35,6 +38,9 @@ console.log(squares);
 
 const evens = numbers.filter((n) => n % 2 === 0);
 console.log(evens); 
+
+
+
 3. What are arrow functions in ES6?
 Arrow functions → shorter & cleaner syntax, এবং this inherit করে surrounding scope থেকে।
 
@@ -49,6 +55,9 @@ const addArrow = (a, b) => a + b;
 Shorter syntax
 Lexical this binding
 Useful for callbacks, array methods
+
+
+
 4. How does destructuring assignment work in ES6?
 Destructuring → array/object থেকে value বের করে variable এ রাখা যায়।
 
@@ -59,6 +68,9 @@ console.log(x, y, z);
 const user = { name: "Riyaz", age: 21 };
 const { name, age } = user;
 console.log(name, age); 
+
+
+
 5. Explain template literals in ES6. How are they different from string concatenation?
 Template literals (backticks ` দিয়ে লেখা হয়):
 
